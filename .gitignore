@@ -1,0 +1,36 @@
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OPC UA certificates and private keys
+pki/
+certificates/
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Node-RED credentials
+flows_cred.json
+*_cred.json
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
